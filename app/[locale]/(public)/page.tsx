@@ -26,7 +26,7 @@ export default async function HomePage(props: {
       </div>
 
       {/* AUTRES SECTIONS */}
-      <div className="max-w-screen-2xl mx-auto px-4">
+      <div className="">
         <IndependanceBanner />
         <ActionsRapides />
         <ServicesSection />

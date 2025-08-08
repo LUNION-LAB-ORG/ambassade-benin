@@ -40,13 +40,13 @@ export default function ServicesSection() {
               key={index}
               className="relative bg-white rounded-lg shadow-md hover:shadow-lg transition duration-300 p-6 flex flex-col"
             >
-              <div className="relative mb-6 text-center border border-green-700   pr-4">
+              <div className="relative mb-6 text-center  pr-4">
                 {service.icon}
                 <div
                 />
               </div>
 
-              <h3 className="text-xl font-bold border border-blue-700  text-orange-500 mb-3 text-start pr-4">
+              <h3 className="text-xl font-bold  text-orange-500 mb-3 text-start pr-4">
                 {service.title}
               </h3>
               <p className="text-gray-600 text-sm text-start leading-relaxed pr-4 mb-12">
@@ -56,7 +56,7 @@ export default function ServicesSection() {
 
               {/* Conteneur bouton positionné en bas, taille bouton initiale */}
               <div className="absolute bottom-0 right-0  rounded-b-lg">
-                <button className="bg-yellow-400 hover:bg-yellow-500 text-black px-4 py-2 rounded-br-lg flex items-center space-x-2 transition">
+                <button className="bg-primary hover:bg-yellow-500 text-black px-4 py-2 rounded-br-lg flex items-center space-x-2 transition">
                   <ArrowRight className="w-6 h-4" />
                 </button>
               </div>

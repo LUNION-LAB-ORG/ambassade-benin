@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const IndependanceBanner = () => {
   return (
-    <section className="w-full bg-white py-8  px-4">
+    <section className="w-full bg-white py-8 px-4">
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-6 text-center md:text-left">
         
         {/* Drapeau */}
@@ -43,7 +43,7 @@ const IndependanceBanner = () => {
                 cx="50"
                 cy="50"
                 r="40"
-                stroke="#FFD700"
+                stroke="#FDD644"
                 strokeWidth="12"
                 fill="none"
                 strokeDasharray="188.5"
@@ -60,7 +60,7 @@ const IndependanceBanner = () => {
 
             {/* Texte "ANS" */}
             <span
-              className="absolute text-yellow-500 font-semibold"
+              className="absolute text-primary-500 font-semibold"
               style={{
                 top: "79%",
                 left: "50%",

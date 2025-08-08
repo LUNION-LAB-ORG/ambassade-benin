@@ -67,7 +67,7 @@ export default function Header() {
 
   return (
     <motion.header
-      className="fixed top-0 left-0 right-0 z-50"
+      className="fixed top-0 left-0 right-0 w-full z-50"
       initial={{ y: -100, opacity: 0 }}
       animate={{ y: 0, opacity: 1 }}
       transition={{ duration: 0.3 }}
@@ -81,11 +81,11 @@ export default function Header() {
         boxShadow: isScrolled ? '0 8px 32px rgba(0, 0, 0, 0.1)' : 'none',
       }}
     >
-      <div className="mx-auto max-w-7xl sm:pr-1 lg:pr-8 bg-[#FDD644]">
+      <div className="mx-auto w-full sm:pr-1 lg:pr-8 bg-primary ">
         <div className="flex h-16 lg:h-20 items-center justify-between">
           {/* Logo */}
           <motion.div
-            className="flex items-center h-full bg-white rounded-tr-2xl rounded-br-full px-4 py-2"
+            className="flex items-center h-full  bg-white rounded-tr-2xl rounded-br-full px-4 py-2"
             whileHover={{ scale: 1.03 }}
             transition={{ type: 'spring', stiffness: 400, damping: 12 }}
           >
