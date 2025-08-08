@@ -4,7 +4,7 @@ import { routing } from "./i18n/routing";
 import { auth } from "@/lib/auth";
 import { getTokenInfo } from "@/features/auth/actions/auth.action";
 
-export const publicRoutes = ["/"];
+export const publicRoutes = ["/about"];
 
 // Middleware d'internationalisation
 const intlMiddleware = createIntlMiddleware(routing);
