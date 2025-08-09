@@ -5,7 +5,7 @@ import { Phone, Clock, MapPin } from "lucide-react";
 
 const TropicalHero = () => {
   return (
-    <div className="relative w-full h-[100vh]  sm:h-[145vh]  rounded-b-2xl mt-23 overflow-hidden">
+    <div className="relative w-full h-[80vh] sm:h-[120vh] md:h-[100vh] lg:h-[90vh] rounded-b-2xl mt-23 overflow-hidden">
       {/* Background Image */}
       <div
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"

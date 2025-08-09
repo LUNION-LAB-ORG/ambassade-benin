@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import SectionTitle from "@/components/section-title";
 
 const actualites = [
   {
@@ -26,11 +27,10 @@ const actualites = [
 
 export default function ActualitesSection() {
   return (
-    <section className="w-full py-14 px-4 bg-gray-50">
+    <section className="w-full py-14 px-4 bg-white">
       <div className="max-w-7xl mx-auto">
         <div className="flex items-center justify-between mb-10">
-          <h2 className="text-3xl font-bold text-red-500">Actualités</h2>
-         
+          <SectionTitle title="Actualités"/>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">

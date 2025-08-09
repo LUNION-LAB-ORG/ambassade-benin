@@ -1,7 +1,6 @@
 import React from 'react';
 import {Marquee} from "@/components/magicui/marquee";
-import ImageCard from './image-card';
-
+import ImageCard from "@/components/galerie/galerie-image-card";
 
 // Première liste - Nature
 const firstRow = [
@@ -74,22 +73,22 @@ const secondRow = [
 function GalerieMarquee() {
     return (
         <div className="relative flex h-[500px] w-full flex-row items-center justify-center overflow-hidden">
-            <Marquee pauseOnHover vertical className="[--duration:20s]">
+            <Marquee pauseOnHover vertical className="[--duration:22s]">
                 {firstRow.map((image) => (
                     <ImageCard key={image.title} {...image} />
                 ))}
             </Marquee>
-            <Marquee reverse pauseOnHover vertical className="[--duration:20s]">
+            <Marquee reverse pauseOnHover vertical className="[--duration:23s]">
                 {secondRow.map((review) => (
                     <ImageCard key={review.title} {...review} />
                 ))}
             </Marquee>
-            <Marquee reverse pauseOnHover vertical className="[--duration:20s]">
+            <Marquee pauseOnHover vertical className="[--duration:22s] max-lg:hidden">
                 {firstRow.map((review) => (
                     <ImageCard key={review.title} {...review} />
                 ))}
             </Marquee>
-            <Marquee pauseOnHover vertical className="[--duration:20s] [--gap:2rem]">
+            <Marquee reverse pauseOnHover vertical className="[--duration:23s] [--gap:2rem] max-lg:hidden">
                 {secondRow.map((review) => (
                     <ImageCard key={review.title} {...review} />
                 ))}

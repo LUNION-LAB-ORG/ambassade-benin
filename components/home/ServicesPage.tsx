@@ -1,11 +1,12 @@
 import React from 'react';
+import SectionTitle from "@/components/section-title";
 
 const ServicesPage = () => {
   return (
     <div className="min-h-screen bg-gray-50 p-4 md:p-8">
       <div className="max-w-6xl mx-auto">
         {/* Header */}
-        <h1 className="text-3xl md:text-4xl font-bold text-gray-800 mb-8">Services</h1>
+        <SectionTitle title="Actions rapides"/>
         
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
           {/* Services Section */}

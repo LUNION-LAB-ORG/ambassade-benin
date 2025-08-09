@@ -67,7 +67,7 @@ const IndependanceBanner = () => {
                 transform: "translate(-50%, -50%)",
               }}
             >
-              <span className="sm:text-lg md:text-xl lg:text-2xl">ANS</span>
+              <span className="text-2xl lg:text-4xl">ANS</span>
             </span>
           </div>
         </div>
