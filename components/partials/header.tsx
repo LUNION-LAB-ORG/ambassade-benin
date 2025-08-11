@@ -16,14 +16,14 @@ interface NavItem {
 }
 
 const navItems: NavItem[] = [
-  { name: 'ACCUEIL', href: '#' },
+  { name: 'ACCUEIL', href: '/' },
   {
     name: 'LE CONSULAT',
     href: '/consulat',
     hasDropdown: true,
     dropdownItems: [
-      { name: 'Apropos du consulat honoraire', href: '#' },
-      { name: 'Les représentations ', href: '#' },
+      { name: 'Apropos du consulat honoraire', href: '/consulat/apropos' },
+      { name: 'Les représentations ', href: '/consulat/representation' },
     ],
   },
   { name: 'NOS PRESTATIONS', href: '#' },

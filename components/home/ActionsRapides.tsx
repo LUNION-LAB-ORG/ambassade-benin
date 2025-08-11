@@ -27,7 +27,7 @@ const ActionsRapides = () => {
         <section className="w-full bg-white py-16 px-4">
             <div className="max-w-7xl mx-auto">
                 {/* Titre */}
-                <SectionTitle title="Actions rapides" className="text-center mb-10" />
+                <SectionTitle title="Actions rapides" className="text-center mb-10 text-red-500" />
 
                 {/* Grille des cartes */}
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 place-items-center">

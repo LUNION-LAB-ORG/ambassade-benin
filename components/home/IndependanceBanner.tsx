@@ -11,7 +11,8 @@ const IndependanceBanner = () => {
         <div className="flex justify-center items-center w-full md:w-auto">
           <div className="h-48 sm:h-60 md:h-72 w-auto flex items-center">
             <Image
-              src="/images/all-img/drapeau.png"
+              src="/images/all-img/drapeau5.jpg"
+              //drapeau5 ok
               alt="Drapeau du Bénin"
               width={60}
               height={320}
