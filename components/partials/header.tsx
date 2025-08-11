@@ -81,7 +81,7 @@ export default function Header() {
         boxShadow: isScrolled ? '0 8px 32px rgba(0, 0, 0, 0.1)' : 'none',
       }}
     >
-      <div className="mx-auto w-full sm:pr-1 lg:pr-8 bg-secondary">
+      <div className="mx-auto w-full sm:pr-1 lg:pr-8 bg-secondary ">
         <div className="flex h-16 lg:h-20 items-center justify-between">
           {/* Logo */}
           <motion.div

@@ -60,13 +60,12 @@ function ContactConsul() {
                     />
                 </div>
 
-                <div className="mt-6">
-                    <Button
-                        className="w-full  rounded-2xl bg-primary text-white text-sm px-6 py-3">
-                        Voir nos représentants du Consul en Côte d’Ivoire
-                    </Button>
-                </div>
-            </div>
+        <div className="mt-6">
+          <Button className="w-full  rounded-2xl bg-primary hover:bg-primary-600 text-white text-sm px-6 py-3">
+            Voir nos représentants du Consul en Côte d’Ivoire
+          </Button>
+        </div>
+      </div>
 
             {/* Image à droite */}
             <div className="relative w-full lg:w-1/3 h-64 lg:h-auto min-h-[300px]">
