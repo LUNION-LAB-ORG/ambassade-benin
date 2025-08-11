@@ -81,7 +81,7 @@ export default function Header() {
         boxShadow: isScrolled ? '0 8px 32px rgba(0, 0, 0, 0.1)' : 'none',
       }}
     >
-      <div className="mx-auto w-full sm:pr-1 lg:pr-8 bg-primary ">
+      <div className="mx-auto w-full sm:pr-1 lg:pr-8 bg-secondary">
         <div className="flex h-16 lg:h-20 items-center justify-between">
           {/* Logo */}
           <motion.div
@@ -211,7 +211,7 @@ export default function Header() {
                           <Link
                             key={dropdownItem.name}
                             href={dropdownItem.href}
-                            className="block text-sm px-2 py-1 rounded hover:bg-rose-500 hover:text-white transition"
+                            className="block text-sm px-2 py-1 rounded hover:bg-color2 hover:text-white transition"
                             onClick={() => setIsMobileMenuOpen(false)}
                           >
                             {dropdownItem.name}
@@ -232,7 +232,7 @@ export default function Header() {
                   </Link>
                    <Link
                 href="/signup"
-                className="inline-flex items-center  hover:bg-red-500 hover:text-white space-x-2 rounded-full ring-1 ring-black px-6 py-2.5 font-bold text-black transition hover:shadow-lg"
+                className="inline-flex items-center  hover:bg-color2 hover:text-white space-x-2 rounded-full ring-1 ring-black px-6 py-2.5 font-bold text-black transition hover:shadow-lg"
               >
                 <CircleUserRound />
                 <span>Compte</span>

@@ -8,7 +8,7 @@ type SectionTitleProps = {
 
 function SectionTitle({title, className}:SectionTitleProps) {
     return (
-        <h2 className={cn("text-[#EF2E39] text-2xl sm:text-3xl font-bold", className)}>
+        <h2 className={cn("text-color2 text-2xl sm:text-3xl font-bold", className)}>
             {title}
         </h2>
     );
