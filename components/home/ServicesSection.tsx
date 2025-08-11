@@ -56,7 +56,7 @@ export default function ServicesSection() {
 
               {/* Conteneur bouton positionné en bas, taille bouton initiale */}
               <div className="absolute bottom-0 right-0  rounded-b-lg">
-                <button className="bg-primary hover:bg-yellow-500 text-black px-4 py-2 rounded-br-lg flex items-center space-x-2 transition">
+                <button className="bg-secondary hover:bg-yellow-500 text-black px-4 py-2 rounded-br-lg flex items-center space-x-2 transition">
                   <ArrowRight className="w-6 h-4" />
                 </button>
               </div>

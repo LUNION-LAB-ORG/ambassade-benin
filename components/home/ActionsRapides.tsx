@@ -50,7 +50,7 @@ const ActionsRapides = () => {
 
               {/* Bande titre */}
               <div className="absolute bottom-4 left-4 right-4 bg-white bg-opacity-80 backdrop-blur-md border rounded-md px-4 py-2 flex items-center justify-center h-16">
-                <p className="text-center font-semibold text-sm sm:text-base text-secondary-700 leading-snug">
+                <p className="text-center font-semibold text-sm sm:text-base text-green-800 leading-snug">
                   {action.titre}
                 </p>
               </div>
